@@ -1,0 +1,11 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# uv lock file (regenerated)
+uv.lock

@@ -1,0 +1,16 @@
+[project]
+name = "brew-ingredients"
+version = "0.1.0"
+description = "Brewing ingredients database - hops, malts, yeasts"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.28.0",
+    "beautifulsoup4>=4.11.0",
+]
+
+[project.scripts]
+brew-ingredients = "brew_ingredients.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
